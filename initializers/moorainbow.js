@@ -1,8 +1,9 @@
 // http://moorainbow.woolly-sheep.net/#doc
 window.addEvent("domready", function() {
   // simple
+  // NOTE: imgPath has to end with slash!
   $$(".rainbow").each(function(element) {
-    new MooRainbow(element, {imgPath: "/pupu/moorainbow/images"});
+    new MooRainbow(element, {imgPath: "/pupu/moorainbow/images/"});
   });
 
   // advanced

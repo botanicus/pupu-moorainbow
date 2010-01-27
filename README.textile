@@ -1,6 +1,6 @@
 h1. About moorainbow
 
-# TODO: write what your pupu is all about
+http://moorainbow.woolly-sheep.net
 
 h1. About Pupu
 

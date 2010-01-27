@@ -2,7 +2,7 @@
 window.addEvent("domready", function() {
   // simple
   $$(".rainbow").each(function(element) {
-    new MooRainbow("demo1", {id: "myDemo1"});
+    new MooRainbow(element);
   });
 
   // advanced
